@@ -1,0 +1,35 @@
+﻿Build started 20.12.2014 1:59:48.
+     1>Project "C:\Users\lenovo\documents\visual studio 2012\Projects\ConsoleApplication13\ConsoleApplication13\ConsoleApplication13.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SFML-2.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Game_Location.cpp
+         Game_Location.cpp
+     1>c:\users\lenovo\documents\visual studio 2012\projects\consoleapplication13\consoleapplication13\game_location.cpp(103): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\lenovo\documents\visual studio 2012\projects\consoleapplication13\consoleapplication13\game_location.cpp(99) : definition of 'i' ignored
+                 c:\users\lenovo\documents\visual studio 2012\projects\consoleapplication13\consoleapplication13\game_location.cpp(83) : definition of 'i' used
+     1>c:\users\lenovo\documents\visual studio 2012\projects\consoleapplication13\consoleapplication13\game_location.cpp(146): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\lenovo\documents\visual studio 2012\projects\consoleapplication13\consoleapplication13\game_location.cpp(128): warning C4715: 'Game_Location::Compare_Digits' : not all control paths return a value
+     1>c:\users\lenovo\documents\visual studio 2012\projects\consoleapplication13\consoleapplication13\oil_digit_container.h(30): warning C4715: 'Oil_Digit_Container::operator[]' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lenovo\documents\visual studio 2012\Projects\ConsoleApplication13\Debug\ConsoleApplication13.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SFML-2.1\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lenovo\documents\visual studio 2012\Projects\ConsoleApplication13\Debug\ConsoleApplication13.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lenovo\documents\visual studio 2012\Projects\ConsoleApplication13\Debug\ConsoleApplication13.lib" /MACHINE:X86 /entry:"mainCRTStartup Debug\Digit.obj
+         Debug\Exit_Location.obj
+         Debug\Game_Location.obj
+         Debug\Game_Manager.obj
+         Debug\Hero.obj
+         Debug\Hero_Digit.obj
+         Debug\Location.obj
+         Debug\main.obj
+         Debug\Oil_Digit.obj
+         Debug\Oil_Digit_Container.obj
+         Debug\Oil_Drop.obj
+         Debug\Oil_Drop_Container.obj
+         Debug\Options_Locationcpp.obj
+         Debug\Result_Location.obj
+         Debug\Score.obj
+         Debug\Sound.obj
+         Debug\Start_Location.obj
+         ConsoleApplication13.vcxproj -> C:\Users\lenovo\documents\visual studio 2012\Projects\ConsoleApplication13\Debug\ConsoleApplication13.exe
+     1>Done Building Project "C:\Users\lenovo\documents\visual studio 2012\Projects\ConsoleApplication13\ConsoleApplication13\ConsoleApplication13.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.14

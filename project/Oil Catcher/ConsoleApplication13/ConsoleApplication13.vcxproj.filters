@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Digits">
+      <UniqueIdentifier>{c14c5959-c925-4719-82ac-91bcc4b245ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Other">
+      <UniqueIdentifier>{af4ea9f0-c45c-4f1a-9938-810cffed1283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Locations">
+      <UniqueIdentifier>{0f96db67-cd2f-4adc-bd14-1a7f57d41917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Digits">
+      <UniqueIdentifier>{e980ed0b-dc60-4568-9a0b-4e0905bc8734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Other">
+      <UniqueIdentifier>{f9a7c8ca-fbcc-4dd1-901c-6f6c5f803868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Locations">
+      <UniqueIdentifier>{9664d25a-1ccd-45ce-8149-06339675303e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Containers">
+      <UniqueIdentifier>{9aea9b36-d374-46f4-b246-3a69f31bd5d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers">
+      <UniqueIdentifier>{fc180f28-5d9c-4d5c-aa4f-baae25682386}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Exit_Location.cpp">
+      <Filter>Source Files\Locations</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Location.cpp">
+      <Filter>Source Files\Locations</Filter>
+    </ClCompile>
+    <ClCompile Include="Location.cpp">
+      <Filter>Source Files\Locations</Filter>
+    </ClCompile>
+    <ClCompile Include="Result_Location.cpp">
+      <Filter>Source Files\Locations</Filter>
+    </ClCompile>
+    <ClCompile Include="Start_Location.cpp">
+      <Filter>Source Files\Locations</Filter>
+    </ClCompile>
+    <ClCompile Include="Digit.cpp">
+      <Filter>Source Files\Digits</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero_Digit.cpp">
+      <Filter>Source Files\Digits</Filter>
+    </ClCompile>
+    <ClCompile Include="Oil_Digit.cpp">
+      <Filter>Source Files\Digits</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Oil_Drop.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Manager.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Options_Locationcpp.cpp">
+      <Filter>Source Files\Locations</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Oil_Digit_Container.cpp">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Oil_Drop_Container.cpp">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Exit_Location.h">
+      <Filter>Header Files\Locations</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Location.h">
+      <Filter>Header Files\Locations</Filter>
+    </ClInclude>
+    <ClInclude Include="Result_Location.h">
+      <Filter>Header Files\Locations</Filter>
+    </ClInclude>
+    <ClInclude Include="Start_Location.h">
+      <Filter>Header Files\Locations</Filter>
+    </ClInclude>
+    <ClInclude Include="Digit.h">
+      <Filter>Header Files\Digits</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero_Digit.h">
+      <Filter>Header Files\Digits</Filter>
+    </ClInclude>
+    <ClInclude Include="Oil_Digit.h">
+      <Filter>Header Files\Digits</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Location.h">
+      <Filter>Header Files\Locations</Filter>
+    </ClInclude>
+    <ClInclude Include="Oil_Drop.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Manager.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Options_Location.h">
+      <Filter>Header Files\Locations</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Oil_Digit_Container.h">
+      <Filter>Header Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Oil_Drop_Container.h">
+      <Filter>Header Files\Containers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
